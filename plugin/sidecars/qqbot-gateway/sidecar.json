@@ -1,0 +1,9 @@
+{
+  "display_name": "QQ Bot Gateway",
+  "description": "Runs the local QQ Bot WebSocket gateway and callback HTTP server, bridging inbound QQ messages to Antigravity conversations.",
+  "command": "node",
+  "args": [
+    "REPLACE_WITH_ABSOLUTE_PATH_TO/antigravity-qqbot/src/gateway-entry.ts"
+  ],
+  "restart_policy": "on-failure"
+}

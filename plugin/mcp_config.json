@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "antigravity-qqbot": {
+      "command": "node",
+      "args": [
+        "REPLACE_WITH_ABSOLUTE_PATH_TO/antigravity-qqbot/src/mcp/cli.ts"
+      ],
+      "env": {
+        "QQBOT_CALLBACK_HOST": "127.0.0.1",
+        "QQBOT_CALLBACK_PORT": "39871"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "antigravity-qqbot",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "author": "icywhite22",
+  "description": "QQ Bot bridge and Antigravity plugin (referencing @tencent-connect/dsh-qqbot QQ gateway layer).",
+  "homepage": "https://github.com/icywhite22/antigravity-qqbot-plugin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icywhite22/antigravity-qqbot-plugin.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20.3.0"
+  },
+  "scripts": {
+    "start": "node src/gateway-entry.ts",
+    "gateway": "node src/gateway-entry.ts",
+    "mcp": "node src/mcp/cli.ts",
+    "install:plugin": "node scripts/install-plugin.ts",
+    "test": "node --test tests/*.test.ts",
+    "verify:qq": "node scripts/verify-qq-echo.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@tencent-connect/qqbot-connector": "^1.2.0",
+    "@tencent-connect/qqbot-nodejs": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}

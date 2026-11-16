@@ -1,0 +1,15 @@
+{
+  "name": "antigravity-qqbot",
+  "displayName": "QQ Bot Bridge",
+  "description": "Connect QQ private and group chats to local Antigravity conversations via a sidecar gateway and MCP reply tools.",
+  "version": "0.1.0",
+  "author": "icywhite22",
+  "homepage": "https://github.com/icywhite22/antigravity-qqbot-plugin",
+  "repository": "https://github.com/icywhite22/antigravity-qqbot-plugin",
+  "suggestedPrompts": [
+    "Check whether the antigravity-qqbot MCP server and qqbot_reply tool are connected",
+    "Help me configure absolute paths and environment variables for the QQ Bot Bridge sidecar and MCP server",
+    "Explain how inbound [QQ c2c message] and [QQ group message] prompts are handled with qqbot_reply"
+  ],
+  "disabled": true
+}
